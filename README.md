@@ -1,4 +1,4 @@
-# [The App Brewery - Front-end project 05 - React - Keeper App](https://arpadgbondor.github.io/The_App_Brewery-Front-end_project_05-REACT-Keeper/)
+# [The App Brewery - Front-end project 05 - React.js - Keeper App](https://arpadgbondor.github.io/The_App_Brewery-Front-end_project_05-REACT-Keeper/)
 
 ## Udemy - [Dr. Angela Yu - The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 ### Section 33: React.js
