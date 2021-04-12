@@ -8,7 +8,8 @@ html {
 }
 body {
   background: #cfc;
-  background-image: url('/images/cubes.png'), linear-gradient(135deg, #696 0%, #aea 25%, #7a7 50%, #aea 75%, #696 100%);
+  background-image: url('../images/cubes.png'),
+    linear-gradient(135deg, #696 0%, #aea 25%, #7a7 50%, #aea 75%, #696 100%);
   padding: 0 16px;
   position: relative;
 }
