@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/main.6711f2bb.chunk.js",
+    "main.js.map": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/main.6711f2bb.chunk.js.map",
+    "runtime-main.js": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/runtime-main.e5c2fcea.js",
+    "runtime-main.js.map": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/runtime-main.e5c2fcea.js.map",
+    "static/js/2.8ccc8df6.chunk.js": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/2.8ccc8df6.chunk.js",
+    "static/js/2.8ccc8df6.chunk.js.map": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/2.8ccc8df6.chunk.js.map",
+    "index.html": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/index.html",
+    "static/js/2.8ccc8df6.chunk.js.LICENSE.txt": "/The_App_Brewery-Front-end_project_05-REACT-Keeper/static/js/2.8ccc8df6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5c2fcea.js",
+    "static/js/2.8ccc8df6.chunk.js",
+    "static/js/main.6711f2bb.chunk.js"
+  ]
+}

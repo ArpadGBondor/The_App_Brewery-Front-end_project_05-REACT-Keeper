@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: #cfc;
+  background-image: url('/images/cubes.png'), linear-gradient(135deg, #696 0%, #aea 25%, #7a7 50%, #aea 75%, #696 100%);
+  padding: 0 16px;
+  position: relative;
+}
+
+header {
+  /* #f5ba13 */
+  background-color: rgba(66, 99, 242, 0.8);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'McLaren', cursive;
+  font-weight: 200;
+}
+
+.app {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100vh;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* width: 100%; */
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.notes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.note {
+  position: relative;
+  background: #fff;
+  color: #4263f2;
+  border-radius: 7px;
+  padding: 10px;
+  max-width: 240px;
+  min-width: 4em;
+  margin: 16px;
+  box-shadow: 0.5em 0.5em 0.5em 0 rgba(0, 0, 0, 0.2), 1em 1em 1em 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: absolute;
+  right: 0.5em;
+  bottom: -1.25em;
+  float: right;
+  background: #4263f2;
+  color: #fff;
+  border-radius: 2.5em;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0.5em 0.5em 0 rgba(0, 0, 0, 0.2), 0 1em 1em 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
+}
+
+form {
+  position: relative;
+  max-width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form textarea {
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+}
+
+form .new-note-button {
+  position: absolute;
+  right: 0.5em;
+  bottom: -1.25em;
+  background: #4263f2;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
